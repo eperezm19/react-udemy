@@ -8,11 +8,12 @@ import React from 'react';
 // import { CounterWithCustonHook } from './components/01-useState/CounterWithCustonHook';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { MultipleCustomHooks } from './components/03-example/MultipleCustomHooks';
-import { CallbackHook } from './components/06-memos/CallbackHook';
+// import { CallbackHook } from './components/06-memos/CallbackHook';
+import { Padre } from './components/07-tarea-memo/Padre';
 export const Hookapp = () => {
   return (
     <div>
-      <CallbackHook />
+      <Padre />
     </div>
   );
 };
