@@ -9,11 +9,12 @@ import React from 'react';
 // import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { MultipleCustomHooks } from './components/03-example/MultipleCustomHooks';
 // import { CallbackHook } from './components/06-memos/CallbackHook';
-import { Padre } from './components/07-tarea-memo/Padre';
+// import { Padre } from './components/07-tarea-memo/Padre';
+import { TodoApp } from './components/08-useReducer/TodoApp';
 export const Hookapp = () => {
   return (
     <div>
-      <Padre />
+      <TodoApp />
     </div>
   );
 };
